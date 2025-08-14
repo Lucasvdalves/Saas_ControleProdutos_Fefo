@@ -2,7 +2,10 @@ package br.com.controleProdutosFefo.Api.service;
 
 import br.com.controleProdutosFefo.Api.dto.ProdutoRequestDTO;
 import br.com.controleProdutosFefo.Api.dto.ProdutoResponseDTO;
+import br.com.controleProdutosFefo.Api.dto.UserRequestDTO;
+import br.com.controleProdutosFefo.Api.dto.UserResponseDTO;
 import br.com.controleProdutosFefo.Api.model.ProdutoModel;
+import br.com.controleProdutosFefo.Api.model.UserModel;
 import br.com.controleProdutosFefo.Api.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
@@ -73,6 +76,5 @@ public class ProdutoService {
                 produto.getDataCompra()
         );
     }
-
 
 }
